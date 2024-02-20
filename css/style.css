@@ -1,0 +1,164 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 50px 250px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Outfit", serif;
+  color: hsl(24, 5%, 18%);
+}
+
+h1, h2 {
+  font-family: "Young Serif", serif;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+main {
+  background-color: white;
+  padding: 50px 50px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  width: 650px;
+  height: auto;
+}
+
+img {
+  width: 650px;
+  border-radius: 25px;
+  height: auto;
+}
+
+.preparation-section {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+.preparation-section ul {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients-section ul {
+    color: hsl(14, 45%, 36%);
+
+  }
+
+  .instructions-section ol {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+
+  .instructions-section span {
+    font-weight: 400;
+  }
+
+span {
+  color: hsl(30, 10%, 34%);
+}
+hr {
+  color: hsl(30, 18%, 87%);
+}
+
+li {
+  padding: 0 7px 0 10px;
+  margin: 0px 0px 0px -14px;
+
+}
+
+.nutritional-table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nutritional-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.nutritional-info p{
+    width: 50%;
+}
+
+.nutritional-info span{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Cellphones */
+
+@media only screen and (max-width: 375px) {
+    body{
+        margin: 50px 50px;
+        font-size: 12px;
+    }
+    main{
+        width: 250px;
+        padding: 10px;
+    }
+
+    img{
+        width: 250px;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 1023px) {
+    body{
+        margin: 50px 80px;
+        font-size: 14px;
+        background-color: rgb(190, 112, 10);
+    }
+    main{
+        width: 400px;
+        padding: 10px;
+    }
+
+    img{
+        width: 400px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+
