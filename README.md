@@ -24,8 +24,8 @@ Website of a recipe made in CSS and HTML
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/danniadelap/recipe-page)
+- Live Site URL: [Add live site URL here](https://danniadelap.github.io/recipe-page/)
 
 ## My process
 
